@@ -1,11 +1,26 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
-  background-image: url('../img/map-image.png');
+  // background-color: $gray-900;
+  background-image: url('https://blog.hubspot.com/hubfs/best-contact-us-pages.jpg?t=1531808320270');
   background-repeat: no-repeat;
-  background-position: center;
+  // background-position: center;
+  padding-bottom: 43px !important;
+  padding-top: 43px;
+  a{
+    color: #212529;
+  }
   .section-heading {
-    color: $white;
+    color: #212529;
+        border-bottom: 1px solid red;
+        margin: 0 !important;
+   
+  }
+  address{
+    text-align: left;
+    padding-left: 37px;
+    i{
+      color: $primary;
+    }
   }
   .form-group {
     margin-bottom: 25px;

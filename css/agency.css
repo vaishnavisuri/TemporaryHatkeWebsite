@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 p {
@@ -13,15 +13,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #ED2939;
 }
 
 a:hover {
-  color: #fec503;
+  color: #d11221;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #ED2939 !important;
 }
 
 h1,
@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 section {
@@ -42,6 +42,8 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  border-bottom: 1px solid red;
+  margin: 0 10em 0.2em;
 }
 
 section h3.section-subheading {
@@ -50,7 +52,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -60,7 +62,7 @@ section h3.section-subheading {
 }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
 
@@ -70,13 +72,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #ED2939;
+  border-color: #ED2939;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #dd1323 !important;
+  border-color: #dd1323 !important;
   color: white;
 }
 
@@ -85,12 +87,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #ED2939;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #ED2939;
   text-shadow: none;
 }
 
@@ -113,17 +115,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ED2939;
+  font-family: 'Lato', sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  color: #ED2939;
+  font-family: 'Lato', sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #d11221;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,12 +133,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #ED2939;
 }
 
 @media (min-width: 992px) {
@@ -161,7 +163,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -172,7 +174,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("http://nisiesenchantedflorist.com/wp-content/uploads/2013/08/nisies-enchanted-florist-orange-county-Brittany-and-Derrick-Pelican-Hill-Resort-wedding-1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -192,7 +194,7 @@ header.masthead .intro-text .intro-lead-in {
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -200,7 +202,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -213,14 +215,14 @@ header.masthead .intro-text .intro-heading {
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 }
 
@@ -250,7 +252,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(237, 41, 57, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -294,7 +296,7 @@ header.masthead .intro-text .intro-heading {
   font-size: 16px;
   font-style: italic;
   margin: 0;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 #portfolio * {
@@ -334,7 +336,7 @@ header.masthead .intro-text .intro-heading {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -454,7 +456,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #ED2939;
 }
 
 .timeline > li .timeline-image h4 {
@@ -597,14 +599,29 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("https://blog.hubspot.com/hubfs/best-contact-us-pages.jpg?t=1531808320270");
   background-repeat: no-repeat;
-  background-position: center;
+  padding-bottom: 43px !important;
+  padding-top: 43px;
+}
+
+section#contact a {
+  color: #212529;
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #212529;
+  border-bottom: 1px solid red;
+  margin: 0 !important;
+}
+
+section#contact address {
+  text-align: left;
+  padding-left: 37px;
+}
+
+section#contact address i {
+  color: #ED2939;
 }
 
 section#contact .form-group {
@@ -625,46 +642,48 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #ED2939;
   box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 18- */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 19+ */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #263238;
 }
 
 footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
 }
 
 footer ul.quicklinks {
@@ -672,7 +691,7 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 ul.social-buttons {
@@ -688,12 +707,12 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  color: white;
+  color: #263238;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #fff;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #fff;
 }

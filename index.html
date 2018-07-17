@@ -15,14 +15,69 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,700i,900" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.13.0/simplelightbox.min.css">
+<style>
 
+    .gallery-ul {
+      width: 100%;
+      padding: 0;
+    margin-bottom: 1em;
+    list-style: none;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+  }
+   .padding-zero{
+     padding: 0;
+   }
+  /* FILTERS */
+  .gallery-filter-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    font-family: "Asap", sans-serif;
+    text-align: center;
+  }
+  
+  .gallery-filter-button button {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid transparent;
+    color: #393838;
+    background: none;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .gallery-filter-button button.is-active {
+    /* background: #393838; */
+    color: #ed2939;
+  }
+
+  .grid-item img{
+    width: 100%;
+  }
+  
+  .list__item__title {
+    display: block;
+    margin-top: 30%;
+  }
+
+</style>
   </head>
 
   <body id="page-top">
@@ -30,7 +85,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -61,9 +116,9 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Welcome To Our Studio!</div>
-          <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+          <div class="intro-lead-in">Welcome To HATKE Events!</div>
+          <div class="intro-heading text-uppercase"> Memories to Rejoice</div>
+          <a class="btn btn-primary js-scroll-trigger" href="#services">Lets Rock ></a>
         </div>
       </div>
     </header>
@@ -74,33 +129,43 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">HATKE Events - Memories to Rejoice</h3>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <!-- <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
+              <img src="https://previews.123rf.com/images/imagecatalogue/imagecatalogue1702/imagecatalogue170207783/71905379-wedding-rings-rounded-icon-raster-illustration-style-is-flat-iconic-symbol-inside-circle-red-color-w.jpg" style="
+    width: 125px;
+">
+
             </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Wedding</h4>
+            <p class="text-muted">South India’s best ensemble of Wedding Planners, Wedding Designers, and Client Service.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+              <!-- <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i> -->
+              <img src="https://previews.123rf.com/images/imagecatalogue/imagecatalogue1702/imagecatalogue170207787/71905385-birthday-cake-rounded-icon-vector-illustration-style-is-flat-iconic-symbol-inside-circle-red-color-w.jpg" style="
+              width: 125px;
+          ">
             </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Birthday Parties</h4>
+            <p class="text-muted">A birthday is the anniversary of the birth of a person, or figuratively of an institution.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+              <!-- <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-lock fa-stack-1x fa-inverse"></i> -->
+              <img src="https://st2.depositphotos.com/5266903/8119/v/950/depositphotos_81198408-stock-illustration-store-flat-red-color-rounded.jpg" style="
+              width: 125px;
+          ">
             </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Corporate Events</h4>
+            <p class="text-muted">Over 10 years of combined experience in the Event Management Field.With a fast paced industry you need a fast paced service!</p>
           </div>
         </div>
       </div>
@@ -112,10 +177,10 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Memories to Rejoice</h3>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
@@ -200,7 +265,68 @@
               <p class="text-muted">Photography</p>
             </div>
           </div>
-        </div>
+        </div> -->
+        <div class="gallery-filter-button  button js-filter">
+            <button data-filter="*" class="is-active">show all</button>
+            <button data-filter=".wedding">Wedding</button>
+            <button data-filter=".birthday">Birthday</button>
+            <button data-filter=".events">Corporate Events</button>
+              </div>
+          
+              <ul class="grid gallery-ul">
+                <li class="grid-item wedding list-item col-xs-12 col-sm-6 col-md-3 padding-zero">
+                          <a><img src="https://www.desicomments.com/wp-content/uploads/2017/07/Happy-Wedding-Image-600x336.jpg" alt="image description"/></a>
+                      </li>
+                <li class="grid-item events col-xs-12 col-sm-6 col-md-3 padding-zero">
+                          <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-zEX8fYYbRv1u8aFcjU4N03WKr_f97_fAx5iqjtPmAhODQJGqKQ" alt="image description"/></a>
+                      </li>
+                <li class="grid-item wedding col-xs-12 col-sm-6 col-md-3 padding-zero">
+                          <a href=""><img src="https://www.desicomments.com/wp-content/uploads/2017/07/Happy-Wedding-Have-A-Happy-Married-Life-600x375.jpg" alt="image description"/></a>
+                      </li>
+                <li class="grid-item birthday col-xs-12 col-sm-6 col-md-3 padding-zero">
+                          <a href=""><img src="https://www.desicomments.com/dc3/13/387190/3871901.jpg" alt="image description"/></a>
+                      </li>
+                <li class="grid-item wedding col-xs-12 col-sm-6 col-md-3 padding-zero">
+                          <a href=""><img src="https://www.desicomments.com/wp-content/uploads/2017/07/Congratulations-On-Your-Marriage--600x301.jpg" alt="image description"/></a>
+                      </li>
+                <li class="grid-item birthday col-xs-12 col-sm-6 col-md-3 padding-zero">
+                          <a href=""><img src="https://www.desicomments.com/dc3/10/355174/3551741.jpg" alt="image description"/></a>
+                      </li>
+                <li class="grid-item events col-xs-12 col-sm-6 col-md-3 padding-zero">
+                    <a href="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Y-PdvgmxQyd2MCbpd1C3KUhgv_1BbBqVAciq5bkd81QObHkR-g" alt="image description"/></a>
+                </li>
+                <li class="grid-item wedding col-xs-12 col-sm-6 col-md-3 padding-zero">
+                    <a href="">
+                    <img src="https://www.desicomments.com/wp-content/uploads/2017/07/Congratulations-On-The-Start-Of-Something-Beautiful-600x300.jpg" alt="image description"/></a>
+                      </li>
+                <li class="grid-item birthday col-xs-12 col-sm-6 col-md-3 padding-zero">
+                    <a href="">
+                    <img src="https://www.desicomments.com/dc3/10/355176/3551761.jpg" alt="image description"/></a></li>
+                <li class="grid-item birthday col-xs-12 col-sm-6 col-md-3 padding-zero">
+                    <a href="">
+                    <img src="https://www.desicomments.com/dc3/10/355177/3551771.jpg" alt="image description"/></a></li>
+                <li class="grid-item events col-xs-12 col-sm-6 col-md-3 padding-zero">
+                    <a href="">
+                    <img src="https://media.gettyimages.com/photos/audience-at-the-conference-hall-picture-id493958679?b=1&k=6&m=493958679&s=612x612&w=0&h=Et7kg3eZwqiQc72-8-GAj_IzQ2kX5pXNuCi-DTKNgQo=" alt="image description"/></a></li>
+          
+                  <li class="grid-item events col-xs-12 col-sm-6 col-md-3 padding-zero">
+                      <a href="">
+                      <img src="http://www.eventplannerorganiser.com/images/thumbs/0000073.jpeg" alt="image description"/>
+                      </a></li>
+                      
+                <li class="grid-item events col-xs-12 col-sm-6 col-md-3 padding-zero">
+                    <a href="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4vucSjp4LeqiW1LQJctAGxtKY7r3BHBowSCmAkdbiEgzKtEMoQ" alt="image description"/>
+                    </a>
+                        </li>
+                <li class="grid-item birthday col-xs-12 col-sm-6 col-md-3 padding-zero">
+                    <a href="">
+                        <img src="https://www.desicomments.com/dc3/10/355175/3551751.jpg" alt="image description"/></a></li>
+          </ul>
+          
+
+
       </div>
     </section>
 
@@ -210,7 +336,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">You name it, We make it.</h3>
           </div>
         </div>
         <div class="row">
@@ -222,11 +348,11 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2009-2011</h4>
+                    <h4>2013-2015</h4>
                     <h4 class="subheading">Our Humble Beginnings</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">The story of HATKE began when few crazy folks from a B-Scholl had planned for their own college fest; it was that success of their college fest which they pulled it out on a grand scale within a 13days of hard work.</p>
                   </div>
                 </div>
               </li>
@@ -236,11 +362,11 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>March 2011</h4>
+                    <h4>2016</h4>
                     <h4 class="subheading">An Agency is Born</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">An idea of getting kick started with their own event management company which would be different from any other event mgmt company.and hence came with a different idea or a “Hatke” idea by naming their company as HATKE with its own tag line as the USP, "Memories to Rejoice"!!</p>
                   </div>
                 </div>
               </li>
@@ -250,11 +376,11 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>December 2012</h4>
+                    <h4>2017</h4>
                     <h4 class="subheading">Transition to Full Service</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">Relationships is the key to success for us, we give much importance in maintain relationships.A trust worthy team which will do everything & anything for the event to blossom out like flower.</p>
                   </div>
                 </div>
               </li>
@@ -264,11 +390,11 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>July 2014</h4>
+                    <h4>June 2018</h4>
                     <h4 class="subheading">Phase Two Expansion</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">Customer is the king” this is long old tradition which we have inherited in our company we ensure that you are treated as the king, & see to it that the event goes on a grand – gala scale. With memories to be remembered for ever.</p>
                   </div>
                 </div>
               </li>
@@ -290,7 +416,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+            <h2 class="section-heading text-uppercase">Our Team</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
@@ -307,7 +433,7 @@
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
+                  <a href="">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
@@ -376,76 +502,27 @@
       </div>
     </section>
 
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact -->
     <section id="contact">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <div class="row"> 
+          <dic class="col-lg-7"></dic>
+          <div class="col-lg-5 text-center">
+            <h2 class="text-uppercase section-heading">Contact Us</h2>
+            <h3 class="section-subheading text-muted">Get in touch with us. Feel Free to use contact below.</h3>
+            <address>
+                <span><i class="fa fa-map-marker fa-lg"></i> Hyderabad
+                </span><br>
+                <span><i class="fa fa-phone fa-lg"></i> +91 9100338277
+                </span><br>
+                <span>
+                <i class="fa fa-envelope-o fa-lg"></i>
+                <a href="mailto:hatkemgmt@gmail.com"> hatkemgmt@gmail.com</a>
+                </span>
+                </address>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+
       </div>
     </section>
 
@@ -453,9 +530,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
+          <div class="col-md-4"></div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
@@ -464,7 +539,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/HatkeEvents/" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
@@ -474,17 +549,9 @@
                 </a>
               </li>
             </ul>
+            <span class="copyright">Copyright &copy; Hatke Events</span>
           </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
+          <div class="col-md-4"></div>
         </div>
       </div>
     </footer>
@@ -662,38 +729,7 @@
     </div>
 
     <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -708,7 +744,44 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+  $grid = $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+      percentPosition: true,
+    layoutMode: 'masonry',
+    masonry: {
+      gutter: 0
+      // columnWidth: 50,
+        // horizontalOrder: true,
+        // fitWidth: true
 
+    }
+  });
+  // filter items on button click
+  $('.js-filter').on( 'click', 'button', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+    $( '.js-filter button' ).removeClass( 'is-active' );
+    $( this ).addClass( 'is-active' );
+  });
+//        lightbox slider
+var gallery = $('.grid a').simpleLightbox();
+
+        $('.grid a').each(function(){
+            console.log("in a");
+            var imageValue =  $(this).find('img').attr('src');
+            $(this).attr("href",imageValue);
+            console.log(imageValue);
+        });
+});
+    
+    </script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.13.0/simple-lightbox.min.js"></script>
   </body>
 
 </html>
