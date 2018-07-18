@@ -9,6 +9,14 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   @include background-cover;
+  .logo{
+    width: 150px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    transform: translate(-50%,0);
+  }
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
