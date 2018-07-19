@@ -35,6 +35,11 @@
           color: $primary;
         }
       }
+      @media(max-width:768px) {
+        .nav-link {
+          color: #fff;
+        }
+      }
     }
   }
 }

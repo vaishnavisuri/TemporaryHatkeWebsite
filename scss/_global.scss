@@ -52,6 +52,11 @@ section {
     padding: 150px 0;
   }
 }
+@media(max-width:768px) {
+  h2.section-heading {
+    margin: 0 !important;
+  }
+}
 
 // Button Styles
 .btn {

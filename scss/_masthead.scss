@@ -10,12 +10,18 @@ header.masthead {
   background-position: center center;
   @include background-cover;
   .logo{
-    width: 150px;
+    width: 200px;
     border: 1px solid transparent;
     border-radius: 50%;
     position: absolute;
-    top: 20%;
+    top: 12%;
     transform: translate(-50%,0);
+  }
+  @media(max-width:768px) {
+    .logo {
+      width: 80px;
+      top: 10%;
+    }
   }
   .intro-text {
     padding-top: 150px;
